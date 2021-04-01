@@ -1,10 +1,20 @@
-body {
-    background-color: #5CC8D7FF;
+.article {
+    /* background-color: #5CC8D7FF; */
+    height: 400px;
+    width: 600px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+header {
+    background-color: blue;
+    height: 80px;
+    padding-top: 10px;
 }
 
 h1 {
     text-align: center;
-    -webkit-text-stroke: 3px blueviolet;
+    -webkit-text-stroke: 3px blue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     padding-bottom: 0px;
@@ -17,15 +27,21 @@ h5 {
 }
 
 main {
-    margin-left: 40%;
+    margin-left: 27%;
 }
 
 #joke {
+    margin-top: 10px;
+    margin-left: 150px;
     background-color: white;
     padding-left: 30px;
     padding-top: 1px;
     padding-bottom: 1px;
+    border-width: thick;
     border-radius: 50px;
+    border-style: solid;
+    border-top-color: red;
+    border-bottom-color: blue;
     width: 300px;
 }
 
@@ -44,7 +60,7 @@ h3 {
     color: white;
     font-family: cursive;
     font-weight: bolder;
-    margin-left: 70px;
+    margin-left: 40%;
     margin-top: 10px;
     border-radius: 5px;
 }
